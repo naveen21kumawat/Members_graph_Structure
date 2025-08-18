@@ -1,11 +1,12 @@
 import React from "react";
 import "./index.css"; // Optional, if using Tailwind or dark mode utilities
-import LevelTree from "./components/LevelTree";
+import LevelTree from "./components/levelTree";
 
 const App = () => {
   return (
     <div>
-      <LevelTree />
+      <LevelTree
+       />
     </div>
   );
 };
